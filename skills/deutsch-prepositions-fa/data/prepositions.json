@@ -1,0 +1,1981 @@
+{
+  "meta": {
+    "name": "deutsch-prepositions-fa",
+    "version": "1.0.0",
+    "levels": [
+      "A1",
+      "A2",
+      "B1"
+    ],
+    "note": "Hand-checked A1-B1 German prepositions with Persian glosses. Fields: prepositions: prep, case (akk/dat/wechsel/gen), fa, level, ex, ex_fa. verb_prepositions: verb (infinitive, 'sich X' for reflexive, 'X sein' for copula phrases), prep, case, fa (verb gloss), level, ex, ex_fa, sense (when one verb takes two prepositions with different meanings), sep (separable prefix), forms (explicit Prasens ich/du/er/wir/ihr/sie when not regular weak), lookup_only (true for copula phrases the sentence checker skips). contractions: short form -> prep + article. da_compounds / wo_compounds: compound -> prep. position_verbs / motion_verbs: infinitives for the Wechsel Wo/Wohin rule (forms generated, irregular ones explicit). nouns: singular -> [gender, plural]. destinations: nouns that take zum/zur with motion verbs (nach + dem/der + these is wrong). cities: bare city/country names that take nach (zu + these is wrong)."
+  },
+  "prepositions": [
+    {
+      "prep": "bis",
+      "case": "akk",
+      "fa": "تا، تا به",
+      "level": "A1",
+      "ex": "Ich arbeite bis 17 Uhr.",
+      "ex_fa": "تا ساعت ۵ کار می‌کنم."
+    },
+    {
+      "prep": "durch",
+      "case": "akk",
+      "fa": "از میان، توسط",
+      "level": "A1",
+      "ex": "Wir gehen durch den Park.",
+      "ex_fa": "از میان پارک می‌گذریم."
+    },
+    {
+      "prep": "für",
+      "case": "akk",
+      "fa": "برای",
+      "level": "A1",
+      "ex": "Das Geschenk ist für dich.",
+      "ex_fa": "این هدیه برای توست."
+    },
+    {
+      "prep": "gegen",
+      "case": "akk",
+      "fa": "علیه، به سمت، حدود",
+      "level": "A2",
+      "ex": "Wir spielen gegen die andere Mannschaft.",
+      "ex_fa": "با تیم دیگر بازی می‌کنیم."
+    },
+    {
+      "prep": "ohne",
+      "case": "akk",
+      "fa": "بدون",
+      "level": "A1",
+      "ex": "Ich trinke Kaffee ohne Zucker.",
+      "ex_fa": "قهوه را بدون شکر می‌نوشم."
+    },
+    {
+      "prep": "um",
+      "case": "akk",
+      "fa": "دور، برای؛ ساعت (um 8 Uhr)",
+      "level": "A1",
+      "ex": "Wir sitzen um den Tisch.",
+      "ex_fa": "دور میز نشسته‌ایم."
+    },
+    {
+      "prep": "entlang",
+      "case": "akk",
+      "fa": "در امتداد (بعد از اسم می‌آید)",
+      "level": "B1",
+      "ex": "Wir gehen den Fluss entlang.",
+      "ex_fa": "در امتداد رودخانه می‌رویم."
+    },
+    {
+      "prep": "ab",
+      "case": "dat",
+      "fa": "از ... به بعد",
+      "level": "A2",
+      "ex": "Ab morgen arbeite ich hier.",
+      "ex_fa": "از فردا اینجا کار می‌کنم."
+    },
+    {
+      "prep": "aus",
+      "case": "dat",
+      "fa": "از (داخل)، اهل",
+      "level": "A1",
+      "ex": "Ich komme aus dem Haus.",
+      "ex_fa": "از خانه بیرون می‌آیم."
+    },
+    {
+      "prep": "außer",
+      "case": "dat",
+      "fa": "به‌جز",
+      "level": "A2",
+      "ex": "Außer dir ist niemand da.",
+      "ex_fa": "به‌جز تو هیچ‌کس نیست."
+    },
+    {
+      "prep": "bei",
+      "case": "dat",
+      "fa": "نزد، در (شرکت/خانه کسی)",
+      "level": "A1",
+      "ex": "Ich bin bei Anna.",
+      "ex_fa": "پیش آنا هستم."
+    },
+    {
+      "prep": "gegenüber",
+      "case": "dat",
+      "fa": "روبروی",
+      "level": "A2",
+      "ex": "Die Schule ist gegenüber dem Park.",
+      "ex_fa": "مدرسه روبروی پارک است."
+    },
+    {
+      "prep": "mit",
+      "case": "dat",
+      "fa": "با",
+      "level": "A1",
+      "ex": "Ich fahre mit dem Bus.",
+      "ex_fa": "با اتوبوس می‌روم."
+    },
+    {
+      "prep": "nach",
+      "case": "dat",
+      "fa": "به (شهر/کشور بدون حرف تعریف)؛ پس از",
+      "level": "A1",
+      "ex": "Wir fahren nach Berlin.",
+      "ex_fa": "به برلین می‌رویم."
+    },
+    {
+      "prep": "seit",
+      "case": "dat",
+      "fa": "از ... تا حالا",
+      "level": "A1",
+      "ex": "Ich wohne seit 2020 hier.",
+      "ex_fa": "از سال ۲۰۲۰ اینجا زندگی می‌کنم."
+    },
+    {
+      "prep": "von",
+      "case": "dat",
+      "fa": "از، مالِ",
+      "level": "A1",
+      "ex": "Das ist ein Geschenk von meiner Mutter.",
+      "ex_fa": "این هدیه‌ای از مادرم است."
+    },
+    {
+      "prep": "zu",
+      "case": "dat",
+      "fa": "به (شخص/مکان با حرف تعریف)، نزد",
+      "level": "A1",
+      "ex": "Ich gehe zum Arzt.",
+      "ex_fa": "پیش دکتر می‌روم."
+    },
+    {
+      "prep": "an",
+      "case": "wechsel",
+      "fa": "به/روی (سطح عمودی)؛ در کنار",
+      "level": "A1",
+      "ex": "Das Bild hängt an der Wand.",
+      "ex_fa": "تابلو به دیوار آویزان است."
+    },
+    {
+      "prep": "auf",
+      "case": "wechsel",
+      "fa": "روی (سطح افقی)، به",
+      "level": "A1",
+      "ex": "Das Buch liegt auf dem Tisch.",
+      "ex_fa": "کتاب روی میز است."
+    },
+    {
+      "prep": "hinter",
+      "case": "wechsel",
+      "fa": "پشت",
+      "level": "A1",
+      "ex": "Der Hund ist hinter dem Haus.",
+      "ex_fa": "سگ پشت خانه است."
+    },
+    {
+      "prep": "in",
+      "case": "wechsel",
+      "fa": "در، به داخل",
+      "level": "A1",
+      "ex": "Ich bin in der Schule.",
+      "ex_fa": "در مدرسه هستم."
+    },
+    {
+      "prep": "neben",
+      "case": "wechsel",
+      "fa": "کنار",
+      "level": "A1",
+      "ex": "Er sitzt neben mir.",
+      "ex_fa": "کنار من نشسته است."
+    },
+    {
+      "prep": "über",
+      "case": "wechsel",
+      "fa": "بالای، درباره",
+      "level": "A1",
+      "ex": "Die Lampe hängt über dem Tisch.",
+      "ex_fa": "لامپ بالای میز آویزان است."
+    },
+    {
+      "prep": "unter",
+      "case": "wechsel",
+      "fa": "زیر",
+      "level": "A1",
+      "ex": "Die Tasche ist unter dem Stuhl.",
+      "ex_fa": "کیف زیر صندلی است."
+    },
+    {
+      "prep": "vor",
+      "case": "wechsel",
+      "fa": "جلو، قبل از",
+      "level": "A1",
+      "ex": "Das Auto steht vor dem Haus.",
+      "ex_fa": "ماشین جلوی خانه است."
+    },
+    {
+      "prep": "zwischen",
+      "case": "wechsel",
+      "fa": "بین",
+      "level": "A1",
+      "ex": "Der Stuhl steht zwischen dem Tisch und der Tür.",
+      "ex_fa": "صندلی بین میز و در است."
+    },
+    {
+      "prep": "während",
+      "case": "gen",
+      "fa": "در طول",
+      "level": "A2",
+      "ex": "Während des Kurses lerne ich viel.",
+      "ex_fa": "در طول دوره خیلی یاد می‌گیرم."
+    },
+    {
+      "prep": "wegen",
+      "case": "gen",
+      "fa": "به‌خاطر",
+      "level": "A2",
+      "ex": "Wegen des Wetters bleiben wir zu Hause.",
+      "ex_fa": "به‌خاطر هوا در خانه می‌مانیم."
+    },
+    {
+      "prep": "trotz",
+      "case": "gen",
+      "fa": "با وجود",
+      "level": "B1",
+      "ex": "Trotz des Regens gehen wir spazieren.",
+      "ex_fa": "با وجود باران به پیاده‌روی می‌رویم."
+    },
+    {
+      "prep": "statt",
+      "case": "gen",
+      "fa": "به‌جای",
+      "level": "B1",
+      "ex": "Statt des Busses nehme ich das Fahrrad.",
+      "ex_fa": "به‌جای اتوبوس دوچرخه می‌گیرم."
+    },
+    {
+      "prep": "anstatt",
+      "case": "gen",
+      "fa": "به‌جای",
+      "level": "B1",
+      "ex": "Anstatt des Films lesen wir ein Buch.",
+      "ex_fa": "به‌جای فیلم کتاب می‌خوانیم."
+    },
+    {
+      "prep": "außerhalb",
+      "case": "gen",
+      "fa": "بیرون از",
+      "level": "B1",
+      "ex": "Wir wohnen außerhalb der Stadt.",
+      "ex_fa": "بیرون شهر زندگی می‌کنیم."
+    },
+    {
+      "prep": "innerhalb",
+      "case": "gen",
+      "fa": "داخل، در مدت",
+      "level": "B1",
+      "ex": "Innerhalb der Stadt gibt es viele Parks.",
+      "ex_fa": "داخل شهر پارک‌های زیادی هست."
+    },
+    {
+      "prep": "oberhalb",
+      "case": "gen",
+      "fa": "بالای",
+      "level": "B1",
+      "ex": "Oberhalb des Dorfes ist ein Wald.",
+      "ex_fa": "بالای روستا یک جنگل است."
+    },
+    {
+      "prep": "unterhalb",
+      "case": "gen",
+      "fa": "پایین",
+      "level": "B1",
+      "ex": "Unterhalb des Berges liegt ein See.",
+      "ex_fa": "پایین کوه یک دریاچه است."
+    },
+    {
+      "prep": "aufgrund",
+      "case": "gen",
+      "fa": "به‌دلیل",
+      "level": "B1",
+      "ex": "Aufgrund des Sturms fällt der Unterricht aus.",
+      "ex_fa": "به‌دلیل طوفان کلاس تعطیل می‌شود."
+    },
+    {
+      "prep": "infolge",
+      "case": "gen",
+      "fa": "در نتیجه",
+      "level": "B1",
+      "ex": "Infolge des Unfalls ist die Straße gesperrt.",
+      "ex_fa": "در نتیجهٔ تصادف خیابان بسته است."
+    },
+    {
+      "prep": "dank",
+      "case": "gen",
+      "fa": "به‌لطف (غالباً با Genitiv، در گفتار با Dativ)",
+      "level": "B1",
+      "ex": "Dank des Wetters können wir draußen sitzen.",
+      "ex_fa": "به‌لطف هوا می‌توانیم بیرون بنشینیم."
+    }
+  ],
+  "contractions": {
+    "am": [
+      "an",
+      "dem"
+    ],
+    "im": [
+      "in",
+      "dem"
+    ],
+    "beim": [
+      "bei",
+      "dem"
+    ],
+    "vom": [
+      "von",
+      "dem"
+    ],
+    "zum": [
+      "zu",
+      "dem"
+    ],
+    "zur": [
+      "zu",
+      "der"
+    ],
+    "ans": [
+      "an",
+      "das"
+    ],
+    "ins": [
+      "in",
+      "das"
+    ],
+    "aufs": [
+      "auf",
+      "das"
+    ],
+    "durchs": [
+      "durch",
+      "das"
+    ],
+    "fürs": [
+      "für",
+      "das"
+    ],
+    "ums": [
+      "um",
+      "das"
+    ]
+  },
+  "da_compounds": {
+    "daran": "an",
+    "darauf": "auf",
+    "damit": "mit",
+    "davon": "von",
+    "dazu": "zu",
+    "darüber": "über",
+    "darunter": "unter",
+    "daneben": "neben",
+    "dahinter": "hinter",
+    "davor": "vor",
+    "dazwischen": "zwischen",
+    "dabei": "bei",
+    "danach": "nach",
+    "darum": "um",
+    "dagegen": "gegen",
+    "dadurch": "durch",
+    "dafür": "für",
+    "darin": "in",
+    "daraus": "aus"
+  },
+  "wo_compounds": {
+    "woran": "an",
+    "worauf": "auf",
+    "womit": "mit",
+    "wovon": "von",
+    "wozu": "zu",
+    "worüber": "über",
+    "worunter": "unter",
+    "wobei": "bei",
+    "wonach": "nach",
+    "wovor": "vor",
+    "wodurch": "durch",
+    "wofür": "für",
+    "worin": "in",
+    "woraus": "aus",
+    "wogegen": "gegen",
+    "worum": "um"
+  },
+  "position_verbs": [
+    {
+      "inf": "sein",
+      "forms": [
+        "bin",
+        "bist",
+        "ist",
+        "sind",
+        "seid",
+        "sind"
+      ]
+    },
+    {
+      "inf": "stehen"
+    },
+    {
+      "inf": "sitzen"
+    },
+    {
+      "inf": "liegen"
+    },
+    {
+      "inf": "hängen"
+    },
+    {
+      "inf": "bleiben"
+    },
+    {
+      "inf": "wohnen"
+    },
+    {
+      "inf": "arbeiten"
+    },
+    {
+      "inf": "warten"
+    },
+    {
+      "inf": "leben"
+    },
+    {
+      "inf": "spielen"
+    },
+    {
+      "inf": "lesen",
+      "forms": [
+        "lese",
+        "liest",
+        "liest",
+        "lesen",
+        "lest",
+        "lesen"
+      ]
+    },
+    {
+      "inf": "schreiben"
+    },
+    {
+      "inf": "kochen"
+    },
+    {
+      "inf": "schlafen",
+      "forms": [
+        "schlafe",
+        "schläfst",
+        "schläft",
+        "schlafen",
+        "schlaft",
+        "schlafen"
+      ]
+    },
+    {
+      "inf": "essen",
+      "forms": [
+        "esse",
+        "isst",
+        "isst",
+        "essen",
+        "esst",
+        "essen"
+      ]
+    },
+    {
+      "inf": "fernsehen",
+      "sep": "fern",
+      "forms": [
+        "sehe",
+        "siehst",
+        "sieht",
+        "sehen",
+        "seht",
+        "sehen"
+      ]
+    }
+  ],
+  "motion_verbs": [
+    {
+      "inf": "gehen"
+    },
+    {
+      "inf": "kommen"
+    },
+    {
+      "inf": "fahren",
+      "forms": [
+        "fahre",
+        "fährst",
+        "fährt",
+        "fahren",
+        "fahrt",
+        "fahren"
+      ]
+    },
+    {
+      "inf": "laufen",
+      "forms": [
+        "laufe",
+        "läufst",
+        "läuft",
+        "laufen",
+        "lauft",
+        "laufen"
+      ]
+    },
+    {
+      "inf": "fliegen"
+    },
+    {
+      "inf": "reisen"
+    },
+    {
+      "inf": "stellen"
+    },
+    {
+      "inf": "setzen"
+    },
+    {
+      "inf": "legen"
+    },
+    {
+      "inf": "hängen"
+    },
+    {
+      "inf": "springen"
+    },
+    {
+      "inf": "schwimmen"
+    },
+    {
+      "inf": "steigen"
+    },
+    {
+      "inf": "klettern"
+    },
+    {
+      "inf": "bringen"
+    },
+    {
+      "inf": "tragen",
+      "forms": [
+        "trage",
+        "trägst",
+        "trägt",
+        "tragen",
+        "tragt",
+        "tragen"
+      ]
+    }
+  ],
+  "nouns": {
+    "Tisch": [
+      "m",
+      "Tische"
+    ],
+    "Stuhl": [
+      "m",
+      "Stühle"
+    ],
+    "Bett": [
+      "n",
+      "Betten"
+    ],
+    "Zimmer": [
+      "n",
+      "Zimmer"
+    ],
+    "Wand": [
+      "f",
+      "Wände"
+    ],
+    "Tür": [
+      "f",
+      "Türen"
+    ],
+    "Küche": [
+      "f",
+      "Küchen"
+    ],
+    "Garten": [
+      "m",
+      "Gärten"
+    ],
+    "Park": [
+      "m",
+      "Parks"
+    ],
+    "Schule": [
+      "f",
+      "Schulen"
+    ],
+    "Haus": [
+      "n",
+      "Häuser"
+    ],
+    "Auto": [
+      "n",
+      "Autos"
+    ],
+    "Bus": [
+      "m",
+      "Busse"
+    ],
+    "Zug": [
+      "m",
+      "Züge"
+    ],
+    "Bahnhof": [
+      "m",
+      "Bahnhöfe"
+    ],
+    "Supermarkt": [
+      "m",
+      "Supermärkte"
+    ],
+    "Markt": [
+      "m",
+      "Märkte"
+    ],
+    "Strand": [
+      "m",
+      "Strände"
+    ],
+    "Wald": [
+      "m",
+      "Wälder"
+    ],
+    "Fluss": [
+      "m",
+      "Flüsse"
+    ],
+    "See": [
+      "m",
+      "Seen"
+    ],
+    "Meer": [
+      "n",
+      "Meere"
+    ],
+    "Stadt": [
+      "f",
+      "Städte"
+    ],
+    "Dorf": [
+      "n",
+      "Dörfer"
+    ],
+    "Büro": [
+      "n",
+      "Büros"
+    ],
+    "Laden": [
+      "m",
+      "Läden"
+    ],
+    "Kino": [
+      "n",
+      "Kinos"
+    ],
+    "Theater": [
+      "n",
+      "Theater"
+    ],
+    "Museum": [
+      "n",
+      "Museen"
+    ],
+    "Restaurant": [
+      "n",
+      "Restaurants"
+    ],
+    "Café": [
+      "n",
+      "Cafés"
+    ],
+    "Wohnung": [
+      "f",
+      "Wohnungen"
+    ],
+    "Balkon": [
+      "m",
+      "Balkone"
+    ],
+    "Keller": [
+      "m",
+      "Keller"
+    ],
+    "Schrank": [
+      "m",
+      "Schränke"
+    ],
+    "Sofa": [
+      "n",
+      "Sofas"
+    ],
+    "Lampe": [
+      "f",
+      "Lampen"
+    ],
+    "Tasche": [
+      "f",
+      "Taschen"
+    ],
+    "Jacke": [
+      "f",
+      "Jacken"
+    ],
+    "Brille": [
+      "f",
+      "Brillen"
+    ],
+    "Uhr": [
+      "f",
+      "Uhren"
+    ],
+    "Fenster": [
+      "n",
+      "Fenster"
+    ],
+    "Boden": [
+      "m",
+      "Böden"
+    ],
+    "Teppich": [
+      "m",
+      "Teppiche"
+    ],
+    "Teller": [
+      "m",
+      "Teller"
+    ],
+    "Buch": [
+      "n",
+      "Bücher"
+    ],
+    "Bild": [
+      "n",
+      "Bilder"
+    ],
+    "Schlüssel": [
+      "m",
+      "Schlüssel"
+    ],
+    "Mantel": [
+      "m",
+      "Mäntel"
+    ],
+    "Apfel": [
+      "m",
+      "Äpfel"
+    ],
+    "Kuchen": [
+      "m",
+      "Kuchen"
+    ],
+    "Hund": [
+      "m",
+      "Hunde"
+    ],
+    "Katze": [
+      "f",
+      "Katzen"
+    ],
+    "Kind": [
+      "n",
+      "Kinder"
+    ],
+    "Mann": [
+      "m",
+      "Männer"
+    ],
+    "Frau": [
+      "f",
+      "Frauen"
+    ],
+    "Lehrer": [
+      "m",
+      "Lehrer"
+    ],
+    "Lehrerin": [
+      "f",
+      "Lehrerinnen"
+    ],
+    "Arzt": [
+      "m",
+      "Ärzte"
+    ],
+    "Freund": [
+      "m",
+      "Freunde"
+    ],
+    "Freundin": [
+      "f",
+      "Freundinnen"
+    ],
+    "Apotheke": [
+      "f",
+      "Apotheken"
+    ],
+    "Bäcker": [
+      "m",
+      "Bäcker"
+    ],
+    "Friseur": [
+      "m",
+      "Friseure"
+    ],
+    "Zahnarzt": [
+      "m",
+      "Zahnärzte"
+    ]
+  },
+  "destinations": [
+    "Arzt",
+    "Ärztin",
+    "Zahnarzt",
+    "Bäcker",
+    "Friseur",
+    "Supermarkt",
+    "Markt",
+    "Bahnhof",
+    "Apotheke",
+    "Restaurant",
+    "Café",
+    "Kino",
+    "Theater",
+    "Museum",
+    "Park",
+    "Strand",
+    "Lehrer",
+    "Lehrerin",
+    "Freund",
+    "Freundin",
+    "Chef",
+    "Chefin",
+    "Kollege",
+    "Kollegin",
+    "Nachbar",
+    "Nachbarin",
+    "Laden",
+    "Büro",
+    "Wohnung",
+    "Haus"
+  ],
+  "cities": [
+    "Berlin",
+    "München",
+    "Hamburg",
+    "Köln",
+    "Frankfurt",
+    "Stuttgart",
+    "Düsseldorf",
+    "Leipzig",
+    "Dortmund",
+    "Bremen",
+    "Wien",
+    "Zürich",
+    "Bern",
+    "Paris",
+    "London",
+    "Rom",
+    "Madrid",
+    "Barcelona",
+    "Amsterdam",
+    "Brüssel",
+    "Prag",
+    "Warschau",
+    "Budapest",
+    "Athen",
+    "Lissabon",
+    "Istanbul",
+    "Ankara",
+    "Izmir",
+    "Teheran",
+    "Isfahan",
+    "Gorgan",
+    "Deutschland",
+    "Österreich",
+    "Frankreich",
+    "Italien",
+    "Spanien",
+    "England",
+    "Polen",
+    "Griechenland",
+    "Portugal",
+    "Dänemark",
+    "Schweden",
+    "Norwegen",
+    "Finnland",
+    "Russland",
+    "China",
+    "Japan",
+    "Kanada",
+    "Mexiko",
+    "Brasilien",
+    "Australien",
+    "Indien",
+    "Ägypten"
+  ],
+  "weekdays": [
+    "Montag",
+    "Dienstag",
+    "Mittwoch",
+    "Donnerstag",
+    "Freitag",
+    "Samstag",
+    "Sonntag"
+  ],
+  "months": [
+    "Januar",
+    "Februar",
+    "März",
+    "April",
+    "Mai",
+    "Juni",
+    "Juli",
+    "August",
+    "September",
+    "Oktober",
+    "November",
+    "Dezember"
+  ],
+  "seasons": [
+    "Frühling",
+    "Sommer",
+    "Herbst",
+    "Winter"
+  ],
+  "verb_prepositions": [
+    {
+      "verb": "warten",
+      "prep": "auf",
+      "case": "akk",
+      "fa": "منتظر بودن",
+      "level": "A1",
+      "ex": "Ich warte auf dich.",
+      "ex_fa": "منتظر تو هستم.",
+      "needs_prep": true
+    },
+    {
+      "verb": "sprechen",
+      "prep": "mit",
+      "case": "dat",
+      "fa": "صحبت کردن با",
+      "level": "A1",
+      "forms": [
+        "spreche",
+        "sprichst",
+        "spricht",
+        "sprechen",
+        "sprecht",
+        "sprechen"
+      ],
+      "ex": "Ich spreche mit dem Lehrer.",
+      "ex_fa": "با معلم صحبت می‌کنم."
+    },
+    {
+      "verb": "sprechen",
+      "prep": "über",
+      "case": "akk",
+      "fa": "صحبت کردن درباره",
+      "level": "A1",
+      "forms": [
+        "spreche",
+        "sprichst",
+        "spricht",
+        "sprechen",
+        "sprecht",
+        "sprechen"
+      ],
+      "sense": "دربارهٔ یک موضوع",
+      "ex": "Wir sprechen über das Wetter.",
+      "ex_fa": "دربارهٔ هوا صحبت می‌کنیم."
+    },
+    {
+      "verb": "sprechen",
+      "prep": "von",
+      "case": "dat",
+      "fa": "صحبت کردن از",
+      "level": "A2",
+      "forms": [
+        "spreche",
+        "sprichst",
+        "spricht",
+        "sprechen",
+        "sprecht",
+        "sprechen"
+      ],
+      "sense": "از چیزی/کسی گفتن",
+      "ex": "Er spricht von seiner Reise.",
+      "ex_fa": "از سفرش صحبت می‌کند."
+    },
+    {
+      "verb": "denken",
+      "prep": "an",
+      "case": "akk",
+      "fa": "فکر کردن به",
+      "level": "A1",
+      "ex": "Ich denke an dich.",
+      "ex_fa": "به تو فکر می‌کنم.",
+      "needs_prep": true
+    },
+    {
+      "verb": "denken",
+      "prep": "über",
+      "case": "akk",
+      "fa": "فکر کردن درباره",
+      "level": "A2",
+      "sense": "نظر داشتن دربارهٔ چیزی",
+      "ex": "Was denkst du über den Film?",
+      "ex_fa": "دربارهٔ فیلم چه فکر می‌کنی؟",
+      "needs_prep": true
+    },
+    {
+      "verb": "fragen",
+      "prep": "nach",
+      "case": "dat",
+      "fa": "پرسیدن درباره / سراغ گرفتن",
+      "level": "A1",
+      "ex": "Ich frage nach dem Weg.",
+      "ex_fa": "مسیر را می‌پرسم."
+    },
+    {
+      "verb": "suchen",
+      "prep": "nach",
+      "case": "dat",
+      "fa": "دنبال چیزی گشتن",
+      "level": "A1",
+      "ex": "Ich suche nach meinem Schlüssel.",
+      "ex_fa": "دنبال کلیدم می‌گردم."
+    },
+    {
+      "verb": "helfen",
+      "prep": "bei",
+      "case": "dat",
+      "fa": "کمک کردن در",
+      "level": "A1",
+      "forms": [
+        "helfe",
+        "hilfst",
+        "hilft",
+        "helfen",
+        "helft",
+        "helfen"
+      ],
+      "ex": "Kannst du mir bei den Hausaufgaben helfen?",
+      "ex_fa": "می‌توانی در تکالیف به من کمک کنی؟"
+    },
+    {
+      "verb": "arbeiten",
+      "prep": "mit",
+      "case": "dat",
+      "fa": "کار کردن با",
+      "level": "A1",
+      "ex": "Sie arbeitet mit dem Computer.",
+      "ex_fa": "با کامپیوتر کار می‌کند."
+    },
+    {
+      "verb": "arbeiten",
+      "prep": "an",
+      "case": "dat",
+      "fa": "کار کردن روی",
+      "level": "A2",
+      "sense": "روی یک پروژه/کار",
+      "ex": "Ich arbeite an einem Projekt.",
+      "ex_fa": "روی یک پروژه کار می‌کنم."
+    },
+    {
+      "verb": "arbeiten",
+      "prep": "bei",
+      "case": "dat",
+      "fa": "کار کردن در (شرکت)",
+      "level": "A2",
+      "sense": "محل کار: شرکت/سازمان",
+      "ex": "Er arbeitet bei Siemens.",
+      "ex_fa": "در زیمنس کار می‌کند."
+    },
+    {
+      "verb": "telefonieren",
+      "prep": "mit",
+      "case": "dat",
+      "fa": "تلفنی صحبت کردن با",
+      "level": "A1",
+      "ex": "Ich telefoniere mit meiner Mutter.",
+      "ex_fa": "با مادرم تلفنی صحبت می‌کنم."
+    },
+    {
+      "verb": "sich freuen",
+      "prep": "über",
+      "case": "akk",
+      "fa": "خوشحال بودن از (حال)",
+      "level": "A1",
+      "sense": "چیزی که الان هست",
+      "ex": "Ich freue mich über das Geschenk.",
+      "ex_fa": "از هدیه خوشحالم."
+    },
+    {
+      "verb": "sich freuen",
+      "prep": "auf",
+      "case": "akk",
+      "fa": "خوشحال بودن برای (آینده)",
+      "level": "A2",
+      "sense": "چیزی که قرار است بیاید",
+      "ex": "Ich freue mich auf das Wochenende.",
+      "ex_fa": "برای آخر هفته خوشحالم."
+    },
+    {
+      "verb": "Angst haben",
+      "prep": "vor",
+      "case": "dat",
+      "fa": "ترسیدن از",
+      "level": "A1",
+      "ex": "Ich habe Angst vor dem Hund.",
+      "ex_fa": "از سگ می‌ترسم."
+    },
+    {
+      "verb": "gehören",
+      "prep": "zu",
+      "case": "dat",
+      "fa": "جزئی از چیزی بودن",
+      "level": "A1",
+      "ex": "Das gehört zum Spiel.",
+      "ex_fa": "این جزئی از بازی است."
+    },
+    {
+      "verb": "einladen",
+      "prep": "zu",
+      "case": "dat",
+      "fa": "دعوت کردن به",
+      "level": "A1",
+      "sep": "ein",
+      "forms": [
+        "lade",
+        "lädst",
+        "lädt",
+        "laden",
+        "ladet",
+        "laden"
+      ],
+      "ex": "Ich lade dich zu meiner Party ein.",
+      "ex_fa": "تو را به مهمانی‌ام دعوت می‌کنم."
+    },
+    {
+      "verb": "beginnen",
+      "prep": "mit",
+      "case": "dat",
+      "fa": "شروع کردن با",
+      "level": "A1",
+      "ex": "Wir beginnen mit der Übung.",
+      "ex_fa": "با تمرین شروع می‌کنیم."
+    },
+    {
+      "verb": "sich treffen",
+      "prep": "mit",
+      "case": "dat",
+      "fa": "قرار گذاشتن با / ملاقات کردن",
+      "level": "A1",
+      "forms": [
+        "treffe",
+        "triffst",
+        "trifft",
+        "treffen",
+        "trefft",
+        "treffen"
+      ],
+      "ex": "Ich treffe mich mit Anna.",
+      "ex_fa": "با آنا قرار می‌گذارم."
+    },
+    {
+      "verb": "sich interessieren",
+      "prep": "für",
+      "case": "akk",
+      "fa": "علاقه داشتن به",
+      "level": "A2",
+      "ex": "Ich interessiere mich für Musik.",
+      "ex_fa": "به موسیقی علاقه دارم.",
+      "needs_prep": true
+    },
+    {
+      "verb": "sich erinnern",
+      "prep": "an",
+      "case": "akk",
+      "fa": "به یاد آوردن",
+      "level": "A2",
+      "ex": "Ich erinnere mich an den Tag.",
+      "ex_fa": "آن روز را به یاد می‌آورم.",
+      "needs_prep": true
+    },
+    {
+      "verb": "sich gewöhnen",
+      "prep": "an",
+      "case": "akk",
+      "fa": "عادت کردن به",
+      "level": "A2",
+      "ex": "Ich gewöhne mich an das Wetter.",
+      "ex_fa": "به هوا عادت می‌کنم.",
+      "needs_prep": true
+    },
+    {
+      "verb": "sich vorbereiten",
+      "prep": "auf",
+      "case": "akk",
+      "fa": "آماده شدن برای",
+      "level": "A2",
+      "sep": "vor",
+      "ex": "Wir bereiten uns auf die Prüfung vor.",
+      "ex_fa": "برای امتحان آماده می‌شویم.",
+      "needs_prep": true
+    },
+    {
+      "verb": "sich verlieben",
+      "prep": "in",
+      "case": "akk",
+      "fa": "عاشق شدن",
+      "level": "A2",
+      "ex": "Er verliebt sich in sie.",
+      "ex_fa": "عاشق او می‌شود.",
+      "needs_prep": true
+    },
+    {
+      "verb": "hoffen",
+      "prep": "auf",
+      "case": "akk",
+      "fa": "امیدوار بودن به",
+      "level": "A2",
+      "ex": "Ich hoffe auf gutes Wetter.",
+      "ex_fa": "به هوای خوب امیدوارم.",
+      "needs_prep": true
+    },
+    {
+      "verb": "sich kümmern",
+      "prep": "um",
+      "case": "akk",
+      "fa": "مراقبت کردن از",
+      "level": "A2",
+      "ex": "Sie kümmert sich um die Kinder.",
+      "ex_fa": "از بچه‌ها مراقبت می‌کند.",
+      "needs_prep": true
+    },
+    {
+      "verb": "sich beschäftigen",
+      "prep": "mit",
+      "case": "dat",
+      "fa": "مشغول بودن با",
+      "level": "A2",
+      "ex": "Er beschäftigt sich mit dem Problem.",
+      "ex_fa": "با این مشکل مشغول است.",
+      "needs_prep": true
+    },
+    {
+      "verb": "antworten",
+      "prep": "auf",
+      "case": "akk",
+      "fa": "جواب دادن به",
+      "level": "A2",
+      "ex": "Kannst du auf meine E-Mail antworten?",
+      "ex_fa": "می‌توانی به ایمیلم جواب بدهی؟",
+      "needs_prep": true
+    },
+    {
+      "verb": "bitten",
+      "prep": "um",
+      "case": "akk",
+      "fa": "درخواست کردن",
+      "level": "A2",
+      "ex": "Ich bitte um Hilfe.",
+      "ex_fa": "درخواست کمک می‌کنم.",
+      "needs_prep": true
+    },
+    {
+      "verb": "sich bedanken",
+      "prep": "bei",
+      "case": "dat",
+      "fa": "تشکر کردن از (شخص)",
+      "level": "A2",
+      "sense": "شخصی که از او تشکر می‌شود",
+      "ex": "Ich bedanke mich bei dir.",
+      "ex_fa": "از تو تشکر می‌کنم.",
+      "needs_prep": true
+    },
+    {
+      "verb": "sich bedanken",
+      "prep": "für",
+      "case": "akk",
+      "fa": "تشکر کردن برای (چیز)",
+      "level": "A2",
+      "sense": "چیزی که برایش تشکر می‌شود",
+      "ex": "Ich bedanke mich für deine Hilfe.",
+      "ex_fa": "برای کمکت تشکر می‌کنم.",
+      "needs_prep": true
+    },
+    {
+      "verb": "teilnehmen",
+      "prep": "an",
+      "case": "dat",
+      "fa": "شرکت کردن در",
+      "level": "A2",
+      "sep": "teil",
+      "ex": "Nimmst du an dem Kurs teil?",
+      "ex_fa": "در این دوره شرکت می‌کنی؟",
+      "forms": [
+        "nehme",
+        "nimmst",
+        "nimmt",
+        "nehmen",
+        "nehmt",
+        "nehmen"
+      ],
+      "needs_prep": true
+    },
+    {
+      "verb": "sich entscheiden",
+      "prep": "für",
+      "case": "akk",
+      "fa": "تصمیم گرفتن برای",
+      "level": "A2",
+      "ex": "Ich entscheide mich für den blauen Mantel.",
+      "ex_fa": "برای مانتوی آبی تصمیم می‌گیرم.",
+      "needs_prep": true
+    },
+    {
+      "verb": "sich unterhalten",
+      "prep": "mit",
+      "case": "dat",
+      "fa": "گفت‌وگو کردن با",
+      "level": "A2",
+      "forms": [
+        "unterhalte",
+        "unterhältst",
+        "unterhält",
+        "unterhalten",
+        "unterhaltet",
+        "unterhalten"
+      ],
+      "ex": "Ich unterhalte mich mit dem Nachbarn.",
+      "ex_fa": "با همسایه گفت‌وگو می‌کنم.",
+      "needs_prep": true
+    },
+    {
+      "verb": "sich unterhalten",
+      "prep": "über",
+      "case": "akk",
+      "fa": "گفت‌وگو کردن درباره",
+      "level": "A2",
+      "forms": [
+        "unterhalte",
+        "unterhältst",
+        "unterhält",
+        "unterhalten",
+        "unterhaltet",
+        "unterhalten"
+      ],
+      "sense": "دربارهٔ یک موضوع",
+      "ex": "Wir unterhalten uns über Politik.",
+      "ex_fa": "دربارهٔ سیاست گفت‌وگو می‌کنیم.",
+      "needs_prep": true
+    },
+    {
+      "verb": "diskutieren",
+      "prep": "über",
+      "case": "akk",
+      "fa": "بحث کردن درباره",
+      "level": "A2",
+      "ex": "Wir diskutieren über das Thema.",
+      "ex_fa": "دربارهٔ موضوع بحث می‌کنیم."
+    },
+    {
+      "verb": "nachdenken",
+      "prep": "über",
+      "case": "akk",
+      "fa": "فکر کردن درباره (عمیق)",
+      "level": "A2",
+      "sep": "nach",
+      "ex": "Ich denke über das Angebot nach.",
+      "ex_fa": "دربارهٔ پیشنهاد فکر می‌کنم.",
+      "needs_prep": true
+    },
+    {
+      "verb": "lachen",
+      "prep": "über",
+      "case": "akk",
+      "fa": "خندیدن به",
+      "level": "A2",
+      "ex": "Wir lachen über den Witz.",
+      "ex_fa": "به لطیفه می‌خندیم.",
+      "needs_prep": true
+    },
+    {
+      "verb": "sich ärgern",
+      "prep": "über",
+      "case": "akk",
+      "fa": "عصبانی شدن از",
+      "level": "A2",
+      "ex": "Ich ärgere mich über den Stau.",
+      "ex_fa": "از ترافیک عصبانی می‌شوم.",
+      "needs_prep": true
+    },
+    {
+      "verb": "sich verlassen",
+      "prep": "auf",
+      "case": "akk",
+      "fa": "تکیه کردن به",
+      "level": "A2",
+      "forms": [
+        "verlasse",
+        "verlässt",
+        "verlässt",
+        "verlassen",
+        "verlasst",
+        "verlassen"
+      ],
+      "ex": "Du kannst dich auf mich verlassen.",
+      "ex_fa": "می‌توانی به من تکیه کنی.",
+      "needs_prep": true
+    },
+    {
+      "verb": "sich konzentrieren",
+      "prep": "auf",
+      "case": "akk",
+      "fa": "تمرکز کردن روی",
+      "level": "A2",
+      "ex": "Ich konzentriere mich auf die Arbeit.",
+      "ex_fa": "روی کار تمرکز می‌کنم.",
+      "needs_prep": true
+    },
+    {
+      "verb": "sich informieren",
+      "prep": "über",
+      "case": "akk",
+      "fa": "اطلاعات گرفتن درباره",
+      "level": "A2",
+      "ex": "Ich informiere mich über die Preise.",
+      "ex_fa": "دربارهٔ قیمت‌ها اطلاعات می‌گیرم.",
+      "needs_prep": true
+    },
+    {
+      "verb": "berichten",
+      "prep": "über",
+      "case": "akk",
+      "fa": "گزارش دادن درباره",
+      "level": "A2",
+      "ex": "Sie berichtet über die Reise.",
+      "ex_fa": "دربارهٔ سفر گزارش می‌دهد."
+    },
+    {
+      "verb": "erzählen",
+      "prep": "von",
+      "case": "dat",
+      "fa": "تعریف کردن از",
+      "level": "A2",
+      "ex": "Er erzählt von seinem Urlaub.",
+      "ex_fa": "از تعطیلاتش تعریف می‌کند."
+    },
+    {
+      "verb": "glauben",
+      "prep": "an",
+      "case": "akk",
+      "fa": "باور داشتن به",
+      "level": "A2",
+      "ex": "Ich glaube an dich.",
+      "ex_fa": "به تو باور دارم."
+    },
+    {
+      "verb": "zweifeln",
+      "prep": "an",
+      "case": "dat",
+      "fa": "شک داشتن به",
+      "level": "A2",
+      "ex": "Ich zweifle an seiner Aussage.",
+      "ex_fa": "به حرفش شک دارم.",
+      "needs_prep": true
+    },
+    {
+      "verb": "sich beschweren",
+      "prep": "über",
+      "case": "akk",
+      "fa": "شکایت کردن از",
+      "level": "A2",
+      "sense": "چیزی که از آن شکایت می‌شود",
+      "ex": "Ich beschwere mich über den Lärm.",
+      "ex_fa": "از سر و صدا شکایت می‌کنم.",
+      "needs_prep": true
+    },
+    {
+      "verb": "sich beschweren",
+      "prep": "bei",
+      "case": "dat",
+      "fa": "شکایت کردن نزد",
+      "level": "A2",
+      "sense": "کسی که نزد او شکایت می‌شود",
+      "ex": "Ich beschwere mich bei der Chefin.",
+      "ex_fa": "نزد رئیس شکایت می‌کنم.",
+      "needs_prep": true
+    },
+    {
+      "verb": "aufhören",
+      "prep": "mit",
+      "case": "dat",
+      "fa": "دست کشیدن از",
+      "level": "A2",
+      "sep": "auf",
+      "ex": "Ich höre mit dem Rauchen auf.",
+      "ex_fa": "سیگار را ترک می‌کنم."
+    },
+    {
+      "verb": "sich bewerben",
+      "prep": "um",
+      "case": "akk",
+      "fa": "درخواست دادن برای (شغل)",
+      "level": "B1",
+      "forms": [
+        "bewerbe",
+        "bewirbst",
+        "bewirbt",
+        "bewerben",
+        "bewerbt",
+        "bewerben"
+      ],
+      "sense": "شغلی که برایش درخواست می‌شود",
+      "ex": "Ich bewerbe mich um die Stelle.",
+      "ex_fa": "برای این شغل درخواست می‌دهم.",
+      "needs_prep": true
+    },
+    {
+      "verb": "sich bewerben",
+      "prep": "bei",
+      "case": "dat",
+      "fa": "درخواست دادن نزد (شرکت)",
+      "level": "B1",
+      "forms": [
+        "bewerbe",
+        "bewirbst",
+        "bewirbt",
+        "bewerben",
+        "bewerbt",
+        "bewerben"
+      ],
+      "sense": "شرکتی که نزد آن درخواست می‌شود",
+      "ex": "Ich bewerbe mich bei Siemens.",
+      "ex_fa": "در زیمنس درخواست می‌دهم.",
+      "needs_prep": true
+    },
+    {
+      "verb": "sich bemühen",
+      "prep": "um",
+      "case": "akk",
+      "fa": "تلاش کردن برای",
+      "level": "B1",
+      "ex": "Ich bemühe mich um eine Lösung.",
+      "ex_fa": "برای راه‌حل تلاش می‌کنم.",
+      "needs_prep": true
+    },
+    {
+      "verb": "träumen",
+      "prep": "von",
+      "case": "dat",
+      "fa": "خواب دیدن / رؤیا دیدن درباره",
+      "level": "A2",
+      "ex": "Ich träume von einer Reise.",
+      "ex_fa": "رؤیای سفر می‌بینم."
+    },
+    {
+      "verb": "leiden",
+      "prep": "unter",
+      "case": "dat",
+      "fa": "رنج بردن از",
+      "level": "A2",
+      "ex": "Er leidet unter dem Stress.",
+      "ex_fa": "از استرس رنج می‌برد.",
+      "needs_prep": true
+    },
+    {
+      "verb": "leiden",
+      "prep": "an",
+      "case": "dat",
+      "fa": "مبتلا بودن به (بیماری)",
+      "level": "B1",
+      "sense": "بیماری یا درد",
+      "ex": "Sie leidet an Kopfschmerzen.",
+      "ex_fa": "از سردرد رنج می‌برد.",
+      "needs_prep": true
+    },
+    {
+      "verb": "sterben",
+      "prep": "an",
+      "case": "dat",
+      "fa": "مردن از (بیماری)",
+      "level": "A2",
+      "forms": [
+        "sterbe",
+        "stirbst",
+        "stirbt",
+        "sterben",
+        "sterbt",
+        "sterben"
+      ],
+      "ex": "Er starb an einer Krankheit.",
+      "ex_fa": "از بیماری مرد.",
+      "needs_prep": true
+    },
+    {
+      "verb": "sich entschuldigen",
+      "prep": "bei",
+      "case": "dat",
+      "fa": "عذرخواهی کردن از",
+      "level": "A2",
+      "sense": "کسی که از او عذرخواهی می‌شود",
+      "ex": "Ich entschuldige mich bei dir.",
+      "ex_fa": "از تو عذرخواهی می‌کنم.",
+      "needs_prep": true
+    },
+    {
+      "verb": "sich entschuldigen",
+      "prep": "für",
+      "case": "akk",
+      "fa": "عذرخواهی کردن برای",
+      "level": "A2",
+      "sense": "چیزی که برایش عذرخواهی می‌شود",
+      "ex": "Ich entschuldige mich für die Verspätung.",
+      "ex_fa": "برای تأخیر عذرخواهی می‌کنم.",
+      "needs_prep": true
+    },
+    {
+      "verb": "gratulieren",
+      "prep": "zu",
+      "case": "dat",
+      "fa": "تبریک گفتن برای",
+      "level": "A2",
+      "ex": "Ich gratuliere dir zum Geburtstag.",
+      "ex_fa": "تولدت مبارک.",
+      "needs_prep": true
+    },
+    {
+      "verb": "passen",
+      "prep": "zu",
+      "case": "dat",
+      "fa": "مناسب بودن برای",
+      "level": "A2",
+      "ex": "Der Schlüssel passt zu dieser Tür.",
+      "ex_fa": "این کلید به این در می‌خورد.",
+      "needs_prep": true
+    },
+    {
+      "verb": "bestehen",
+      "prep": "aus",
+      "case": "dat",
+      "fa": "تشکیل شدن از",
+      "level": "A2",
+      "ex": "Das Team besteht aus fünf Personen.",
+      "ex_fa": "تیم از پنج نفر تشکیل شده است.",
+      "needs_prep": true
+    },
+    {
+      "verb": "bestehen",
+      "prep": "auf",
+      "case": "dat",
+      "fa": "اصرار کردن بر",
+      "level": "B1",
+      "sense": "اصرار، نه ترکیب",
+      "ex": "Er besteht auf seiner Meinung.",
+      "ex_fa": "بر نظرش اصرار می‌کند.",
+      "needs_prep": true
+    },
+    {
+      "verb": "verzichten",
+      "prep": "auf",
+      "case": "akk",
+      "fa": "صرف‌نظر کردن از",
+      "level": "B1",
+      "ex": "Ich verzichte auf das Dessert.",
+      "ex_fa": "از دسر صرف‌نظر می‌کنم.",
+      "needs_prep": true
+    },
+    {
+      "verb": "handeln",
+      "prep": "von",
+      "case": "dat",
+      "fa": "(داستان) درباره بودن",
+      "level": "B1",
+      "ex": "Der Film handelt von einer Familie.",
+      "ex_fa": "فیلم دربارهٔ یک خانواده است.",
+      "needs_prep": true
+    },
+    {
+      "verb": "abhängen",
+      "prep": "von",
+      "case": "dat",
+      "fa": "بستگی داشتن به",
+      "level": "B1",
+      "sep": "ab",
+      "ex": "Es hängt von dir ab.",
+      "ex_fa": "به تو بستگی دارد.",
+      "needs_prep": true
+    },
+    {
+      "verb": "sich erholen",
+      "prep": "von",
+      "case": "dat",
+      "fa": "بهبود یافتن از",
+      "level": "B1",
+      "ex": "Ich erhole mich von der Krankheit.",
+      "ex_fa": "از بیماری بهبود می‌یابم.",
+      "needs_prep": true
+    },
+    {
+      "verb": "sich verabschieden",
+      "prep": "von",
+      "case": "dat",
+      "fa": "خداحافظی کردن با",
+      "level": "A2",
+      "ex": "Ich verabschiede mich von dir.",
+      "ex_fa": "از تو خداحافظی می‌کنم.",
+      "needs_prep": true
+    },
+    {
+      "verb": "sich trennen",
+      "prep": "von",
+      "case": "dat",
+      "fa": "جدا شدن از",
+      "level": "B1",
+      "ex": "Sie trennt sich von ihm.",
+      "ex_fa": "از او جدا می‌شود.",
+      "needs_prep": true
+    },
+    {
+      "verb": "sich sehnen",
+      "prep": "nach",
+      "case": "dat",
+      "fa": "دلتنگ بودن برای",
+      "level": "B1",
+      "ex": "Ich sehne mich nach dir.",
+      "ex_fa": "دلتنگ تو هستم.",
+      "needs_prep": true
+    },
+    {
+      "verb": "sich erkundigen",
+      "prep": "nach",
+      "case": "dat",
+      "fa": "پرس‌وجو کردن درباره",
+      "level": "B1",
+      "ex": "Ich erkundige mich nach dem Preis.",
+      "ex_fa": "دربارهٔ قیمت پرس‌وجو می‌کنم.",
+      "needs_prep": true
+    },
+    {
+      "verb": "sich schämen",
+      "prep": "für",
+      "case": "akk",
+      "fa": "خجالت کشیدن از",
+      "level": "B1",
+      "ex": "Ich schäme mich für mein Verhalten.",
+      "ex_fa": "از رفتارم خجالت می‌کشم.",
+      "needs_prep": true
+    },
+    {
+      "verb": "sich aufregen",
+      "prep": "über",
+      "case": "akk",
+      "fa": "هیجان‌زده/عصبانی شدن از",
+      "level": "B1",
+      "sep": "auf",
+      "ex": "Reg dich nicht über Kleinigkeiten auf!",
+      "ex_fa": "سر چیزهای کوچک عصبانی نشو!",
+      "needs_prep": true
+    },
+    {
+      "verb": "sich spezialisieren",
+      "prep": "auf",
+      "case": "akk",
+      "fa": "تخصص گرفتن در",
+      "level": "B1",
+      "ex": "Sie spezialisiert sich auf Kinder.",
+      "ex_fa": "در کودکان تخصص می‌گیرد.",
+      "needs_prep": true
+    },
+    {
+      "verb": "sich sorgen",
+      "prep": "um",
+      "case": "akk",
+      "fa": "نگران بودن برای",
+      "level": "A2",
+      "ex": "Ich sorge mich um dich.",
+      "ex_fa": "نگران تو هستم.",
+      "needs_prep": true
+    },
+    {
+      "verb": "profitieren",
+      "prep": "von",
+      "case": "dat",
+      "fa": "سود بردن از",
+      "level": "B1",
+      "ex": "Wir profitieren von dem Angebot.",
+      "ex_fa": "از این پیشنهاد سود می‌بریم.",
+      "needs_prep": true
+    },
+    {
+      "verb": "sich unterscheiden",
+      "prep": "von",
+      "case": "dat",
+      "fa": "متفاوت بودن از",
+      "level": "B1",
+      "ex": "Das unterscheidet sich von dem Original.",
+      "ex_fa": "با اصل فرق دارد.",
+      "needs_prep": true
+    },
+    {
+      "verb": "sich beteiligen",
+      "prep": "an",
+      "case": "dat",
+      "fa": "مشارکت کردن در",
+      "level": "B1",
+      "ex": "Ich beteilige mich an dem Projekt.",
+      "ex_fa": "در پروژه مشارکت می‌کنم.",
+      "needs_prep": true
+    },
+    {
+      "verb": "riechen",
+      "prep": "nach",
+      "case": "dat",
+      "fa": "بوی چیزی دادن",
+      "level": "A2",
+      "ex": "Es riecht nach Knoblauch.",
+      "ex_fa": "بوی سیر می‌دهد.",
+      "needs_prep": true
+    },
+    {
+      "verb": "schmecken",
+      "prep": "nach",
+      "case": "dat",
+      "fa": "مزهٔ چیزی دادن",
+      "level": "A2",
+      "ex": "Das schmeckt nach Zitrone.",
+      "ex_fa": "مزهٔ لیمو می‌دهد.",
+      "needs_prep": true
+    },
+    {
+      "verb": "stolz sein",
+      "prep": "auf",
+      "case": "akk",
+      "fa": "افتخار کردن به",
+      "level": "A2",
+      "lookup_only": true,
+      "ex": "Ich bin stolz auf dich.",
+      "ex_fa": "به تو افتخار می‌کنم."
+    },
+    {
+      "verb": "verliebt sein",
+      "prep": "in",
+      "case": "akk",
+      "fa": "عاشق بودن",
+      "level": "A2",
+      "lookup_only": true,
+      "ex": "Er ist verliebt in sie.",
+      "ex_fa": "عاشق اوست."
+    },
+    {
+      "verb": "interessiert sein",
+      "prep": "an",
+      "case": "dat",
+      "fa": "علاقه‌مند بودن به",
+      "level": "A2",
+      "lookup_only": true,
+      "ex": "Ich bin interessiert an dem Kurs.",
+      "ex_fa": "به این دوره علاقه‌مندم."
+    },
+    {
+      "verb": "zufrieden sein",
+      "prep": "mit",
+      "case": "dat",
+      "fa": "راضی بودن از",
+      "level": "A2",
+      "lookup_only": true,
+      "ex": "Ich bin zufrieden mit dem Ergebnis.",
+      "ex_fa": "از نتیجه راضی‌ام."
+    },
+    {
+      "verb": "einverstanden sein",
+      "prep": "mit",
+      "case": "dat",
+      "fa": "موافق بودن با",
+      "level": "B1",
+      "lookup_only": true,
+      "ex": "Ich bin einverstanden mit dem Plan.",
+      "ex_fa": "با برنامه موافقم."
+    },
+    {
+      "verb": "verantwortlich sein",
+      "prep": "für",
+      "case": "akk",
+      "fa": "مسئول بودن برای",
+      "level": "B1",
+      "lookup_only": true,
+      "ex": "Er ist verantwortlich für das Projekt.",
+      "ex_fa": "مسئول این پروژه است."
+    },
+    {
+      "verb": "neidisch sein",
+      "prep": "auf",
+      "case": "akk",
+      "fa": "حسادت کردن به",
+      "level": "B1",
+      "lookup_only": true,
+      "ex": "Ich bin neidisch auf dich.",
+      "ex_fa": "به تو حسادت می‌کنم."
+    },
+    {
+      "verb": "eifersüchtig sein",
+      "prep": "auf",
+      "case": "akk",
+      "fa": "حسادت (عشقی) کردن به",
+      "level": "B1",
+      "lookup_only": true,
+      "ex": "Er ist eifersüchtig auf seinen Freund.",
+      "ex_fa": "به دوستش حسادت می‌کند."
+    },
+    {
+      "verb": "wütend sein",
+      "prep": "auf",
+      "case": "akk",
+      "fa": "عصبانی بودن از",
+      "level": "A2",
+      "lookup_only": true,
+      "ex": "Ich bin wütend auf dich.",
+      "ex_fa": "از تو عصبانی‌ام."
+    },
+    {
+      "verb": "beteiligt sein",
+      "prep": "an",
+      "case": "dat",
+      "fa": "درگیر/مشارکت داشتن در",
+      "level": "B1",
+      "lookup_only": true,
+      "ex": "Sie ist beteiligt an dem Projekt.",
+      "ex_fa": "در پروژه مشارکت دارد."
+    },
+    {
+      "verb": "sich freuen",
+      "prep": "für",
+      "case": "akk",
+      "fa": "خوشحال بودن برای (کسی)",
+      "level": "A2",
+      "sense": "برای خوشحالی کسی دیگر",
+      "ex": "Ich freue mich für dich.",
+      "ex_fa": "برای تو خوشحالم."
+    },
+    {
+      "verb": "arbeiten",
+      "prep": "für",
+      "case": "akk",
+      "fa": "کار کردن برای",
+      "level": "A2",
+      "sense": "کارفرما/سازمان",
+      "ex": "Ich arbeite für eine NGO.",
+      "ex_fa": "برای یک سازمان مردم‌نهاد کار می‌کنم."
+    }
+  ]
+}
