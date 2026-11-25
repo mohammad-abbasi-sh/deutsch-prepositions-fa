@@ -1,0 +1,83 @@
+---
+description: German prepositions for Persian speakers — never guess a preposition or a case; look it up with the deterministic tool, apply the Wechsel Wo/Wohin rule, and check learner sentences for preposition errors. Apply whenever German text is written or corrected for Persian-speaking learners.
+globs: "**/*.{md,txt,json,yaml,yml}"
+alwaysApply: false
+---
+
+# German prepositions for Persian speakers — look it up, never guess it
+
+## The contract
+
+1. **Never guess a preposition.** When German text is on the table, run
+   the checker (zero-dependency, pure stdlib):
+
+   ```bash
+   python3 scripts/prepositions.py lookup <verb> [--json]
+   python3 scripts/prepositions.py prep <preposition> [--json]
+   python3 scripts/prepositions.py wechsel <preposition> <wo|wohin> [--json]
+   ```
+
+   `lookup` prints every preposition a verb takes, with the case, the
+   sense when one verb takes two (`denken an` = think of, `denken über`
+   = think about), and an example sentence. `prep` prints the case a
+   preposition governs, its verbs, its da-/wo- compounds and its
+   contractions. `wechsel` answers Wo? (Dativ) vs Wohin? (Akkusativ)
+   for the 9 two-way prepositions, with the correct articles.
+   Exit codes: `0` = found · `1` = not in the list · `2` = usage error.
+
+2. **Check learner sentences conservatively.** The checker only flags
+   what it can decide — six error classes:
+
+   ```bash
+   python3 scripts/prepositions.py check "Ich warte für dich" [--json]
+   # → [DPR-01] «warten» با «auf» + Akk می‌آید، نه «für».
+   #   درستش: Ich warte auf dich.
+   ```
+
+   | ID | What it catches | Example |
+   |---|---|---|
+   | DPR-01 | wrong preposition after a verb | `warten für` → `auf` |
+   | DPR-02 | nach/zu with destinations | `zu Berlin` → `nach Berlin`, `nach dem Arzt` → `zum Arzt` |
+   | DPR-03 | wrong time preposition | `in Montag` → `am Montag`, `am 8 Uhr` → `um 8 Uhr` |
+   | DPR-04 | wrong Wechsel case | `stellen auf dem Tisch` → `auf den Tisch` |
+   | DPR-05 | pronoun instead of a da-compound | `denke an es` → `daran` |
+   | DPR-06 | missing preposition after a verb | `Ich warte dich` → `Ich warte auf dich` |
+
+   `fix` applies the corrections and re-checks; it stops at an
+   ambiguous fix and lists the options instead of guessing.
+   Exit codes: `0` = no findings · `1` = findings · `2` = usage error.
+   **No finding is not a proof of correctness** — say that when
+   reporting.
+
+3. **The rules that matter most.**
+   - Wo? (position) → Dativ · Wohin? (motion) → Akkusativ, for the 9
+     Wechsel prepositions (an, auf, hinter, in, neben, über, unter,
+     vor, zwischen).
+   - Time: days → `am` (am Montag), months/seasons → `im` (im Mai),
+     clock time → `um` (um 8 Uhr).
+   - Cities/countries without an article → `nach` (nach Berlin);
+     people/places with an article → `zu` (zum Arzt).
+   - Preposition + *thing* → da-compound (`Ich denke daran`, not
+     `Ich denke an es`); preposition + *person* keeps the pronoun
+     (`Ich denke an sie`).
+   - One verb, two prepositions, two meanings: `sich freuen auf`
+     (future) vs `über` (present) vs `für` (for someone else);
+     `sich bedanken bei` (person) vs `für` (thing).
+
+4. **Drill and export.** `quiz [--n 5] [--level A1] [--seed N]
+   [--answers a,b,c]` runs an interactive drill; `anki [--level A1]
+   [--kind verbs|wechsel|time|da] [--out cards.tsv]` exports
+   Anki-importable TSV.
+
+## Know the limits — and say them
+
+- The curated list is A1–B1 core vocabulary (38 prepositions, 92
+  verb+preposition entries, v1.0.0). It does not replace a dictionary
+  for verbs outside it.
+- The sentence checker handles simple present-tense sentences. Complex
+  sentences are left alone rather than guessed.
+- A place adverbial (`Ich warte in dem Bus`), a time phrase
+  (`am Montag`) and an ambiguous verb (`hängen`, position and motion)
+  are left alone rather than guessed.
+- This is a deterministic reference, not a teacher: it cannot judge
+  style, word choice or whether a sentence sounds natural.
